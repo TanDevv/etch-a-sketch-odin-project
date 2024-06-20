@@ -79,3 +79,67 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* General Styling */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+header {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  background-color: black;
+  padding: 1.5rem 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+#grid-container {
+  border: 1px solid black;
+  min-width: 50rem;
+  min-height: 50rem;
+}
+
+/* Footer Styling */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+button {
+  color: hsl(0, 0%, 95%);
+  background-color: black;
+  font-size: 1.550rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  border: 0;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  padding: 0.3rem;
+}
+
+button:hover {
+transform: scale(1.1);
+}
+
+button:active {
+  color: hsl(330, 100%, 71%);
+}
