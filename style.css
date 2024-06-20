@@ -107,6 +107,7 @@ main {
   border: 1px solid black;
   min-width: 50rem;
   min-height: 50rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* Footer Styling */
@@ -122,22 +123,22 @@ footer {
   gap: 5rem;
 }
 
-
 button {
   color: hsl(0, 0%, 95%);
   background-color: black;
-  font-size: 1.550rem;
+  font-size: 1.55rem;
   font-weight: 600;
   letter-spacing: 1.2px;
   border: 0;
   border-radius: 5%;
   cursor: pointer;
   transition: all 250ms ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 0.3rem;
 }
 
 button:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 button:active {
